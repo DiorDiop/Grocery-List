@@ -5,7 +5,6 @@
 
 
 # Import the library
-
 import pandas as pd
 
 
@@ -13,7 +12,6 @@ import pandas as pd
 
 
 # Sample data in multiple lists
-
 Fresh_Produce = ["Apples", "Bananas", "Strawberries", "Avocados", "Bell Peppers", "Carrots", "Potatoes", "Spinach", "Tomatoes", "Mangoes", "Kiwi", "Papaya", "Peaches", "Pears", "Watermelon"]
 Grains = ["Breadcrumbs", "Pasta", "Quinoa", "Rice", "Sandwich Bread", "Tortillas", "Oatmeal", "Barley", "Bulgur", "Couscous", "Cornmeal", "Whole wheat tortillas", "Farro", "Millet", "Wild rice"]
 Meat = ["Chicken breasts", "Ground beef", "Pork chops", "Salmon fillets", "Turkey", "Bacon", "Lamb chops", "Shrimp", "Tilapia fillets", "Sausages", "Beef steaks", "Ground turkey", "Pork tenderloin", "Ham", "Duck breast"]
@@ -52,7 +50,6 @@ df = pd.DataFrame(data)
 
 
 # Display the DataFrame as a table
-
 print("Table:")
 print(df)
 
